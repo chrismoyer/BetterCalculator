@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDA63FA313DC7EC60029DCBE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA63FA213DC7EC60029DCBE /* UIKit.framework */; };
+		DDA63FA513DC7EC60029DCBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA63FA413DC7EC60029DCBE /* Foundation.framework */; };
+		DDA63FA713DC7EC60029DCBE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA63FA613DC7EC60029DCBE /* CoreGraphics.framework */; };
+		DDA63FAD13DC7EC60029DCBE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDA63FAB13DC7EC60029DCBE /* InfoPlist.strings */; };
+		DDA63FAF13DC7EC60029DCBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA63FAE13DC7EC60029DCBE /* main.m */; };
+		DDA63FB313DC7EC60029DCBE /* BetterCalculatorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA63FB213DC7EC60029DCBE /* BetterCalculatorAppDelegate.m */; };
+		DDA63FB613DC7EC60029DCBE /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDA63FB413DC7EC60029DCBE /* MainWindow.xib */; };
+		DDA63FBE13DC7EC60029DCBE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA63FBD13DC7EC60029DCBE /* SenTestingKit.framework */; };
+		DDA63FBF13DC7EC60029DCBE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA63FA213DC7EC60029DCBE /* UIKit.framework */; };
+		DDA63FC013DC7EC60029DCBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA63FA413DC7EC60029DCBE /* Foundation.framework */; };
+		DDA63FC113DC7EC60029DCBE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA63FA613DC7EC60029DCBE /* CoreGraphics.framework */; };
+		DDA63FC913DC7EC60029DCBE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDA63FC713DC7EC60029DCBE /* InfoPlist.strings */; };
+		DDA63FCB13DC7EC60029DCBE /* BetterCalculatorTests.h in Resources */ = {isa = PBXBuildFile; fileRef = DDA63FCA13DC7EC60029DCBE /* BetterCalculatorTests.h */; };
+		DDA63FCD13DC7EC60029DCBE /* BetterCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA63FCC13DC7EC60029DCBE /* BetterCalculatorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDA63FC213DC7EC60029DCBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDA63F9513DC7EC60029DCBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDA63F9D13DC7EC60029DCBE;
+			remoteInfo = BetterCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDA63F9E13DC7EC60029DCBE /* BetterCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDA63FA213DC7EC60029DCBE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DDA63FA413DC7EC60029DCBE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DDA63FA613DC7EC60029DCBE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DDA63FAA13DC7EC60029DCBE /* BetterCalculator-Info.plist */ = {isa = PBXFileReference; path = "BetterCalculator-Info.plist"; sourceTree = "<group>"; };
+		DDA63FAC13DC7EC60029DCBE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DDA63FAE13DC7EC60029DCBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDA63FB013DC7EC60029DCBE /* BetterCalculator-Prefix.pch */ = {isa = PBXFileReference; path = "BetterCalculator-Prefix.pch"; sourceTree = "<group>"; };
+		DDA63FB113DC7EC60029DCBE /* BetterCalculatorAppDelegate.h */ = {isa = PBXFileReference; path = BetterCalculatorAppDelegate.h; sourceTree = "<group>"; };
+		DDA63FB213DC7EC60029DCBE /* BetterCalculatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BetterCalculatorAppDelegate.m; sourceTree = "<group>"; };
+		DDA63FB513DC7EC60029DCBE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		DDA63FBC13DC7EC60029DCBE /* BetterCalculatorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterCalculatorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDA63FBD13DC7EC60029DCBE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DDA63FC613DC7EC60029DCBE /* BetterCalculatorTests-Info.plist */ = {isa = PBXFileReference; path = "BetterCalculatorTests-Info.plist"; sourceTree = "<group>"; };
+		DDA63FC813DC7EC60029DCBE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DDA63FCA13DC7EC60029DCBE /* BetterCalculatorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BetterCalculatorTests.h; sourceTree = "<group>"; };
+		DDA63FCC13DC7EC60029DCBE /* BetterCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BetterCalculatorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDA63F9B13DC7EC60029DCBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA63FA313DC7EC60029DCBE /* UIKit.framework in Frameworks */,
+				DDA63FA513DC7EC60029DCBE /* Foundation.framework in Frameworks */,
+				DDA63FA713DC7EC60029DCBE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA63FB813DC7EC60029DCBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA63FBE13DC7EC60029DCBE /* SenTestingKit.framework in Frameworks */,
+				DDA63FBF13DC7EC60029DCBE /* UIKit.framework in Frameworks */,
+				DDA63FC013DC7EC60029DCBE /* Foundation.framework in Frameworks */,
+				DDA63FC113DC7EC60029DCBE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDA63F9313DC7EC60029DCBE = {
+			isa = PBXGroup;
+			children = (
+				DDA63FA813DC7EC60029DCBE /* BetterCalculator */,
+				DDA63FC413DC7EC60029DCBE /* BetterCalculatorTests */,
+				DDA63FA113DC7EC60029DCBE /* Frameworks */,
+				DDA63F9F13DC7EC60029DCBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDA63F9F13DC7EC60029DCBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDA63F9E13DC7EC60029DCBE /* BetterCalculator.app */,
+				DDA63FBC13DC7EC60029DCBE /* BetterCalculatorTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDA63FA113DC7EC60029DCBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDA63FA213DC7EC60029DCBE /* UIKit.framework */,
+				DDA63FA413DC7EC60029DCBE /* Foundation.framework */,
+				DDA63FA613DC7EC60029DCBE /* CoreGraphics.framework */,
+				DDA63FBD13DC7EC60029DCBE /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDA63FA813DC7EC60029DCBE /* BetterCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				DDA63FB113DC7EC60029DCBE /* BetterCalculatorAppDelegate.h */,
+				DDA63FB213DC7EC60029DCBE /* BetterCalculatorAppDelegate.m */,
+				DDA63FB413DC7EC60029DCBE /* MainWindow.xib */,
+				DDA63FA913DC7EC60029DCBE /* Supporting Files */,
+			);
+			path = BetterCalculator;
+			sourceTree = "<group>";
+		};
+		DDA63FA913DC7EC60029DCBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDA63FAA13DC7EC60029DCBE /* BetterCalculator-Info.plist */,
+				DDA63FAB13DC7EC60029DCBE /* InfoPlist.strings */,
+				DDA63FAE13DC7EC60029DCBE /* main.m */,
+				DDA63FB013DC7EC60029DCBE /* BetterCalculator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDA63FC413DC7EC60029DCBE /* BetterCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDA63FCA13DC7EC60029DCBE /* BetterCalculatorTests.h */,
+				DDA63FCC13DC7EC60029DCBE /* BetterCalculatorTests.m */,
+				DDA63FC513DC7EC60029DCBE /* Supporting Files */,
+			);
+			path = BetterCalculatorTests;
+			sourceTree = "<group>";
+		};
+		DDA63FC513DC7EC60029DCBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDA63FC613DC7EC60029DCBE /* BetterCalculatorTests-Info.plist */,
+				DDA63FC713DC7EC60029DCBE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDA63F9D13DC7EC60029DCBE /* BetterCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDA63FD013DC7EC60029DCBE /* Build configuration list for PBXNativeTarget "BetterCalculator" */;
+			buildPhases = (
+				DDA63F9A13DC7EC60029DCBE /* Sources */,
+				DDA63F9B13DC7EC60029DCBE /* Frameworks */,
+				DDA63F9C13DC7EC60029DCBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BetterCalculator;
+			productName = BetterCalculator;
+			productReference = DDA63F9E13DC7EC60029DCBE /* BetterCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDA63FBB13DC7EC60029DCBE /* BetterCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDA63FD313DC7EC60029DCBE /* Build configuration list for PBXNativeTarget "BetterCalculatorTests" */;
+			buildPhases = (
+				DDA63FB713DC7EC60029DCBE /* Sources */,
+				DDA63FB813DC7EC60029DCBE /* Frameworks */,
+				DDA63FB913DC7EC60029DCBE /* Resources */,
+				DDA63FBA13DC7EC60029DCBE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDA63FC313DC7EC60029DCBE /* PBXTargetDependency */,
+			);
+			name = BetterCalculatorTests;
+			productName = BetterCalculatorTests;
+			productReference = DDA63FBC13DC7EC60029DCBE /* BetterCalculatorTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDA63F9513DC7EC60029DCBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = MoeCode;
+			};
+			buildConfigurationList = DDA63F9813DC7EC60029DCBE /* Build configuration list for PBXProject "BetterCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DDA63F9313DC7EC60029DCBE;
+			productRefGroup = DDA63F9F13DC7EC60029DCBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDA63F9D13DC7EC60029DCBE /* BetterCalculator */,
+				DDA63FBB13DC7EC60029DCBE /* BetterCalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDA63F9C13DC7EC60029DCBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA63FAD13DC7EC60029DCBE /* InfoPlist.strings in Resources */,
+				DDA63FB613DC7EC60029DCBE /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA63FB913DC7EC60029DCBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA63FC913DC7EC60029DCBE /* InfoPlist.strings in Resources */,
+				DDA63FCB13DC7EC60029DCBE /* BetterCalculatorTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DDA63FBA13DC7EC60029DCBE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDA63F9A13DC7EC60029DCBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA63FAF13DC7EC60029DCBE /* main.m in Sources */,
+				DDA63FB313DC7EC60029DCBE /* BetterCalculatorAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA63FB713DC7EC60029DCBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA63FCD13DC7EC60029DCBE /* BetterCalculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDA63FC313DC7EC60029DCBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDA63F9D13DC7EC60029DCBE /* BetterCalculator */;
+			targetProxy = DDA63FC213DC7EC60029DCBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDA63FAB13DC7EC60029DCBE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDA63FAC13DC7EC60029DCBE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DDA63FB413DC7EC60029DCBE /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDA63FB513DC7EC60029DCBE /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		DDA63FC713DC7EC60029DCBE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDA63FC813DC7EC60029DCBE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDA63FCE13DC7EC60029DCBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DDA63FCF13DC7EC60029DCBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDA63FD113DC7EC60029DCBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BetterCalculator/BetterCalculator-Prefix.pch";
+				INFOPLIST_FILE = "BetterCalculator/BetterCalculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DDA63FD213DC7EC60029DCBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BetterCalculator/BetterCalculator-Prefix.pch";
+				INFOPLIST_FILE = "BetterCalculator/BetterCalculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DDA63FD413DC7EC60029DCBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BetterCalculator.app/BetterCalculator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BetterCalculator/BetterCalculator-Prefix.pch";
+				INFOPLIST_FILE = "BetterCalculatorTests/BetterCalculatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DDA63FD513DC7EC60029DCBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BetterCalculator.app/BetterCalculator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BetterCalculator/BetterCalculator-Prefix.pch";
+				INFOPLIST_FILE = "BetterCalculatorTests/BetterCalculatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDA63F9813DC7EC60029DCBE /* Build configuration list for PBXProject "BetterCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA63FCE13DC7EC60029DCBE /* Debug */,
+				DDA63FCF13DC7EC60029DCBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDA63FD013DC7EC60029DCBE /* Build configuration list for PBXNativeTarget "BetterCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA63FD113DC7EC60029DCBE /* Debug */,
+				DDA63FD213DC7EC60029DCBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDA63FD313DC7EC60029DCBE /* Build configuration list for PBXNativeTarget "BetterCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA63FD413DC7EC60029DCBE /* Debug */,
+				DDA63FD513DC7EC60029DCBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDA63F9513DC7EC60029DCBE /* Project object */;
+}
