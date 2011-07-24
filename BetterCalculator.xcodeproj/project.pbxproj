@@ -21,6 +21,13 @@
 		DDA63FC913DC7EC60029DCBE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDA63FC713DC7EC60029DCBE /* InfoPlist.strings */; };
 		DDA63FCB13DC7EC60029DCBE /* BetterCalculatorTests.h in Resources */ = {isa = PBXBuildFile; fileRef = DDA63FCA13DC7EC60029DCBE /* BetterCalculatorTests.h */; };
 		DDA63FCD13DC7EC60029DCBE /* BetterCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA63FCC13DC7EC60029DCBE /* BetterCalculatorTests.m */; };
+		DDA63FE813DC7F2E0029DCBE /* AxesDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA63FDD13DC7F2E0029DCBE /* AxesDrawer.m */; };
+		DDA63FE913DC7F2E0029DCBE /* GraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA63FDF13DC7F2E0029DCBE /* GraphView.m */; };
+		DDA63FEA13DC7F2E0029DCBE /* GraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA63FE113DC7F2E0029DCBE /* GraphViewController.m */; };
+		DDA63FEB13DC7F2E0029DCBE /* CalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA63FE313DC7F2E0029DCBE /* CalculatorBrain.m */; };
+		DDA63FEC13DC7F2E0029DCBE /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA63FE513DC7F2E0029DCBE /* CalculatorViewController.m */; };
+		DDA63FED13DC7F2E0029DCBE /* CalculatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDA63FE613DC7F2E0029DCBE /* CalculatorViewController.xib */; };
+		DDA63FF113DC7FB80029DCBE /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDA63FEF13DC7FB80029DCBE /* MainWindow-iPad.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,19 +45,31 @@
 		DDA63FA213DC7EC60029DCBE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DDA63FA413DC7EC60029DCBE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DDA63FA613DC7EC60029DCBE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		DDA63FAA13DC7EC60029DCBE /* BetterCalculator-Info.plist */ = {isa = PBXFileReference; path = "BetterCalculator-Info.plist"; sourceTree = "<group>"; };
+		DDA63FAA13DC7EC60029DCBE /* BetterCalculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BetterCalculator-Info.plist"; sourceTree = "<group>"; };
 		DDA63FAC13DC7EC60029DCBE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DDA63FAE13DC7EC60029DCBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DDA63FB013DC7EC60029DCBE /* BetterCalculator-Prefix.pch */ = {isa = PBXFileReference; path = "BetterCalculator-Prefix.pch"; sourceTree = "<group>"; };
-		DDA63FB113DC7EC60029DCBE /* BetterCalculatorAppDelegate.h */ = {isa = PBXFileReference; path = BetterCalculatorAppDelegate.h; sourceTree = "<group>"; };
+		DDA63FB013DC7EC60029DCBE /* BetterCalculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BetterCalculator-Prefix.pch"; sourceTree = "<group>"; };
+		DDA63FB113DC7EC60029DCBE /* BetterCalculatorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BetterCalculatorAppDelegate.h; sourceTree = "<group>"; };
 		DDA63FB213DC7EC60029DCBE /* BetterCalculatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BetterCalculatorAppDelegate.m; sourceTree = "<group>"; };
 		DDA63FB513DC7EC60029DCBE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		DDA63FBC13DC7EC60029DCBE /* BetterCalculatorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterCalculatorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDA63FBD13DC7EC60029DCBE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		DDA63FC613DC7EC60029DCBE /* BetterCalculatorTests-Info.plist */ = {isa = PBXFileReference; path = "BetterCalculatorTests-Info.plist"; sourceTree = "<group>"; };
+		DDA63FC613DC7EC60029DCBE /* BetterCalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BetterCalculatorTests-Info.plist"; sourceTree = "<group>"; };
 		DDA63FC813DC7EC60029DCBE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DDA63FCA13DC7EC60029DCBE /* BetterCalculatorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BetterCalculatorTests.h; sourceTree = "<group>"; };
 		DDA63FCC13DC7EC60029DCBE /* BetterCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BetterCalculatorTests.m; sourceTree = "<group>"; };
+		DDA63FDC13DC7F2E0029DCBE /* AxesDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxesDrawer.h; sourceTree = "<group>"; };
+		DDA63FDD13DC7F2E0029DCBE /* AxesDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AxesDrawer.m; sourceTree = "<group>"; };
+		DDA63FDE13DC7F2E0029DCBE /* GraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphView.h; sourceTree = "<group>"; };
+		DDA63FDF13DC7F2E0029DCBE /* GraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphView.m; sourceTree = "<group>"; };
+		DDA63FE013DC7F2E0029DCBE /* GraphViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphViewController.h; sourceTree = "<group>"; };
+		DDA63FE113DC7F2E0029DCBE /* GraphViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphViewController.m; sourceTree = "<group>"; };
+		DDA63FE213DC7F2E0029DCBE /* CalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorBrain.h; sourceTree = "<group>"; };
+		DDA63FE313DC7F2E0029DCBE /* CalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorBrain.m; sourceTree = "<group>"; };
+		DDA63FE413DC7F2E0029DCBE /* CalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
+		DDA63FE513DC7F2E0029DCBE /* CalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
+		DDA63FE613DC7F2E0029DCBE /* CalculatorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalculatorViewController.xib; sourceTree = "<group>"; };
+		DDA63FF013DC7FB80029DCBE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "iPad/en.lproj/MainWindow-iPad.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +132,19 @@
 			children = (
 				DDA63FB113DC7EC60029DCBE /* BetterCalculatorAppDelegate.h */,
 				DDA63FB213DC7EC60029DCBE /* BetterCalculatorAppDelegate.m */,
+				DDA63FDC13DC7F2E0029DCBE /* AxesDrawer.h */,
+				DDA63FDD13DC7F2E0029DCBE /* AxesDrawer.m */,
+				DDA63FDE13DC7F2E0029DCBE /* GraphView.h */,
+				DDA63FDF13DC7F2E0029DCBE /* GraphView.m */,
+				DDA63FE013DC7F2E0029DCBE /* GraphViewController.h */,
+				DDA63FE113DC7F2E0029DCBE /* GraphViewController.m */,
+				DDA63FE213DC7F2E0029DCBE /* CalculatorBrain.h */,
+				DDA63FE313DC7F2E0029DCBE /* CalculatorBrain.m */,
+				DDA63FE413DC7F2E0029DCBE /* CalculatorViewController.h */,
+				DDA63FE513DC7F2E0029DCBE /* CalculatorViewController.m */,
+				DDA63FE613DC7F2E0029DCBE /* CalculatorViewController.xib */,
 				DDA63FB413DC7EC60029DCBE /* MainWindow.xib */,
+				DDA63FEE13DC7FB60029DCBE /* iPad */,
 				DDA63FA913DC7EC60029DCBE /* Supporting Files */,
 			);
 			path = BetterCalculator;
@@ -147,6 +178,14 @@
 				DDA63FC713DC7EC60029DCBE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDA63FEE13DC7FB60029DCBE /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				DDA63FEF13DC7FB80029DCBE /* MainWindow-iPad.xib */,
+			);
+			name = iPad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +260,8 @@
 			files = (
 				DDA63FAD13DC7EC60029DCBE /* InfoPlist.strings in Resources */,
 				DDA63FB613DC7EC60029DCBE /* MainWindow.xib in Resources */,
+				DDA63FED13DC7F2E0029DCBE /* CalculatorViewController.xib in Resources */,
+				DDA63FF113DC7FB80029DCBE /* MainWindow-iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +299,11 @@
 			files = (
 				DDA63FAF13DC7EC60029DCBE /* main.m in Sources */,
 				DDA63FB313DC7EC60029DCBE /* BetterCalculatorAppDelegate.m in Sources */,
+				DDA63FE813DC7F2E0029DCBE /* AxesDrawer.m in Sources */,
+				DDA63FE913DC7F2E0029DCBE /* GraphView.m in Sources */,
+				DDA63FEA13DC7F2E0029DCBE /* GraphViewController.m in Sources */,
+				DDA63FEB13DC7F2E0029DCBE /* CalculatorBrain.m in Sources */,
+				DDA63FEC13DC7F2E0029DCBE /* CalculatorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +348,14 @@
 				DDA63FC813DC7EC60029DCBE /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DDA63FEF13DC7FB80029DCBE /* MainWindow-iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDA63FF013DC7FB80029DCBE /* en */,
+			);
+			name = "MainWindow-iPad.xib";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -356,7 +410,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BetterCalculator/BetterCalculator-Prefix.pch";
 				INFOPLIST_FILE = "BetterCalculator/BetterCalculator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -367,7 +423,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BetterCalculator/BetterCalculator-Prefix.pch";
 				INFOPLIST_FILE = "BetterCalculator/BetterCalculator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -425,6 +483,7 @@
 				DDA63FD213DC7EC60029DCBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DDA63FD313DC7EC60029DCBE /* Build configuration list for PBXNativeTarget "BetterCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -433,6 +492,7 @@
 				DDA63FD513DC7EC60029DCBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

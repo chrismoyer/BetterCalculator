@@ -9,7 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface BetterCalculatorAppDelegate : NSObject <UIApplicationDelegate>
+{
+    UINavigationController *navcon;
+}
 
+@property (readonly) BOOL iPad;
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 
 @end
