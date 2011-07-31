@@ -100,12 +100,6 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    // Return YES for supported orientations
-//    return (interfaceOrientation == UIInterfaceOrientationPortrait || 
-//            interfaceOrientation == UIInterfaceOrientationLandscapeLeft ||
-//            interfaceOrientation == UIInterfaceOrientationLandscapeRight ||
-//            interfaceOrientation == UIInterfaceOrientationPortraitUpsideDown);
-    
     return YES;
 }
 
@@ -134,7 +128,7 @@
     barButtonItem.title = aViewController.title;
     self.navigationItem.rightBarButtonItem = barButtonItem;
     
-    pc.popoverContentSize = CGSizeMake(320, 460); //aViewController.view.bounds.size;
+  //  pc.popoverContentSize = CGSizeMake(320, 460); //aViewController.view.bounds.size;
 }
 
 - (void)splitViewController:(UISplitViewController*)svc 

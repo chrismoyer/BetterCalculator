@@ -50,8 +50,7 @@
         self.graphViewController.expression = brain.expression;
         self.graphViewController.title = [CalculatorBrain descriptionOfExpression:self.graphViewController.expression];
         [self.graphViewController.view setNeedsDisplay];
-        
-    //    [self graph];
+      
     }
     
     memoryDisplay.text = @"";
@@ -162,7 +161,21 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation
 {
-    return YES;
+    return (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad);
+}
+
+- (CGSize)contentSizeForViewInPopover
+{
+    CGRect viewFrame = CGRectZero;
+    
+    for(UIView *subview in self.view.subviews) {
+        viewFrame = CGRectUnion(subview.frame, viewFrame);
+    }
+    
+    viewFrame.size.width += 20;
+    viewFrame.size.height += 20;
+    
+    return viewFrame.size;
 }
 
 

@@ -93,6 +93,7 @@
             
             NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];        
             [defaults setDouble:scale forKey:@"scale"];
+            [defaults synchronize];
             
             [self setNeedsDisplay];
         }
